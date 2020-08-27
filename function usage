@@ -1,0 +1,25 @@
+using System;
+
+namespace ConsoleApp5
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
+            int e, f, m;
+            string a = Console.ReadLine();
+            e = Convert.ToInt32(a);
+            string b = Console.ReadLine();
+            f = Convert.ToInt32(b);
+            Program c = new Program();
+            m = c.Add(e, f);
+
+                Console.WriteLine(m);
+        }
+        int Add(int e,int f)
+        {
+            return e + f;
+        }
+    }
+}
